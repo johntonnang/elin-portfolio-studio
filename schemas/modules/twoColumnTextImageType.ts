@@ -1,0 +1,37 @@
+import {defineField, defineType} from 'sanity'
+
+export const twoColumnTextImageType = defineType({
+  name: 'twoColumnTextImage',
+  title: 'Two Column Text and Image',
+  type: 'object',
+  fields: [
+    defineField({
+      name: 'header',
+      type: 'string',
+      title: 'Header',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'description',
+      type: 'array',
+      title: 'Description',
+      of: [{type: 'block'}],
+    }),
+    defineField({
+      name: 'image',
+      type: 'image',
+      title: 'Image',
+      options: {
+        hotspot: true,
+      },
+      fields: [
+        {
+          name: 'alt',
+          type: 'string',
+          title: 'Alternative text',
+          validation: (Rule) => Rule.required(),
+        },
+      ],
+    }),
+  ],
+})
