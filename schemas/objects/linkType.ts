@@ -102,5 +102,14 @@ export const linkType = defineType({
           return true
         }),
     }),
+    defineField({
+      name: 'icon',
+      type: 'image',
+      title: 'Icon',
+      description: 'Optional icon for the link. Should be an SVG.',
+      options: {
+        accept: 'image/svg+xml',
+      },
+    }),
   ],
 })
