@@ -6,6 +6,11 @@ export const caseWhiteBg = defineType({
   type: 'object',
   fields: [
     defineField({
+      name: 'caseNumber',
+      type: 'string',
+      title: 'Case number',
+    }),
+    defineField({
       name: 'header',
       type: 'string',
       title: 'Header',
