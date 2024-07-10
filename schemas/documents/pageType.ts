@@ -1,5 +1,5 @@
 import {HiOutlineDesktopComputer, HiDocument, HiOutlineStar} from 'react-icons/hi'
-import {TbColumns} from 'react-icons/tb'
+import {TbColumns, TbImageInPicture} from 'react-icons/tb'
 import slugify from '../../lib/slugify'
 import {defineType} from 'sanity'
 
@@ -60,6 +60,7 @@ export const pageType = defineType({
         {type: 'caseHero', icon: HiOutlineDesktopComputer},
         {type: 'caseDescriptionRight', icon: TbColumns},
         {type: 'caseDescriptionLeft', icon: TbColumns},
+        {type: 'illustration', icon: TbImageInPicture},
       ],
     },
   ],

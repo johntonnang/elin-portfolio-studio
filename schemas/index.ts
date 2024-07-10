@@ -10,6 +10,7 @@ import {twoColumnTextImageType} from './modules/twoColumnTextImageType'
 import {caseHeroType} from './modules/caseHeroType'
 import {caseDescriptionRightType} from './modules/caseDescriptionRightType'
 import {caseDescriptionLeftType} from './modules/caseDescriptionLeftType'
+import {illustrationType} from './modules/illustrationType'
 
 import {linkType} from './objects/linkType'
 import {categoryType} from './objects/categoryType'
@@ -34,4 +35,5 @@ export const schemaTypes = [
   caseHeroType,
   caseDescriptionRightType,
   caseDescriptionLeftType,
+  illustrationType,
 ]
