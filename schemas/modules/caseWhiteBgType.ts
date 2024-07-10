@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
-export const caseOrangeBg = defineType({
-  name: 'caseOrangeBg',
-  title: 'Case with orange background',
+export const caseWhiteBgType = defineType({
+  name: 'caseWhiteBg',
+  title: 'Case with white background',
   type: 'object',
   fields: [
     defineField({

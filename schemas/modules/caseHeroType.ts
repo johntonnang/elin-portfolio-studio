@@ -1,25 +1,15 @@
 import {defineField, defineType} from 'sanity'
 
-export const caseWhiteBg = defineType({
-  name: 'caseWhiteBg',
-  title: 'Case with white background',
+export const caseHeroType = defineType({
+  name: 'caseHero',
+  title: 'Case hero section',
   type: 'object',
   fields: [
-    defineField({
-      name: 'caseNumber',
-      type: 'string',
-      title: 'Case number',
-    }),
     defineField({
       name: 'header',
       type: 'string',
       title: 'Header',
       validation: (Rule) => Rule.required(),
-    }),
-    defineField({
-      name: 'preamble',
-      type: 'string',
-      title: 'Preamble',
     }),
     defineField({
       name: 'description',

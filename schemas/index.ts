@@ -3,10 +3,13 @@ import {menuType} from './documents/menuType'
 import {footerType} from './documents/footerType'
 
 import {heroType} from './modules/heroType'
-import {caseWhiteBg} from './modules/caseWhiteBg'
-import {caseOrangeBg} from './modules/caseOrangeBg'
+import {caseWhiteBgType} from './modules/caseWhiteBgType'
+import {caseOrangeBgType} from './modules/caseOrangeBgType'
 import {resumeType} from './modules/resumeType'
 import {twoColumnTextImageType} from './modules/twoColumnTextImageType'
+import {caseHeroType} from './modules/caseHeroType'
+import {caseDescriptionRightType} from './modules/caseDescriptionRightType'
+import {caseDescriptionLeftType} from './modules/caseDescriptionLeftType'
 
 import {linkType} from './objects/linkType'
 import {categoryType} from './objects/categoryType'
@@ -19,8 +22,8 @@ export const schemaTypes = [
   menuType,
   footerType,
   heroType,
-  caseWhiteBg,
-  caseOrangeBg,
+  caseWhiteBgType,
+  caseOrangeBgType,
   linkType,
   categoryType,
   resumeType,
@@ -28,4 +31,7 @@ export const schemaTypes = [
   experienceType,
   educationType,
   achievementType,
+  caseHeroType,
+  caseDescriptionRightType,
+  caseDescriptionLeftType,
 ]
