@@ -13,8 +13,9 @@ export const caseDescriptionRightType = defineType({
     }),
     defineField({
       name: 'description',
-      type: 'text',
+      type: 'array',
       title: 'Description',
+      of: [{type: 'block'}],
     }),
     defineField({
       name: 'image',

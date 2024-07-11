@@ -6,6 +6,12 @@ export const caseOrangeBgType = defineType({
   type: 'object',
   fields: [
     defineField({
+      name: 'wip',
+      type: 'boolean',
+      title: 'Work in progress',
+      description: 'If the case is under progress, check this box',
+    }),
+    defineField({
       name: 'caseNumber',
       type: 'string',
       title: 'Case number',
