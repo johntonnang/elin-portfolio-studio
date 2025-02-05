@@ -5,7 +5,7 @@ import {schemaTypes} from './schemas'
 import {studioProjectId, studioTitle, studioDataset} from './environment'
 
 export default defineConfig({
-  name: 'default',
+  name: 'Portfolio',
   title: studioTitle,
 
   projectId: studioProjectId,
